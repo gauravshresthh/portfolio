@@ -261,7 +261,7 @@ h6 {
 
 #hero:before {
 	content: '';
-	background: rgba(255, 255, 255, 0.8);
+	background: rgba(255, 255, 255, 0);
 	position: absolute;
 	bottom: 0;
 	top: 0;
@@ -321,6 +321,17 @@ h6 {
 	}
 }
 
+@media (max-width: 600px) {
+	#hero:before {
+		content: '';
+		background: rgba(255, 255, 255, 0.603);
+		position: absolute;
+		bottom: 0;
+		top: 0;
+		left: 0;
+		right: 0;
+	}
+}
 /*--------------------------------------------------------------
 # Sections General
 --------------------------------------------------------------*/
